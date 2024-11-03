@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "envit"
-version = "0.1.0"
+version = "0.1.1"
 description = "Managing multiple environments credentials easily"
 authors = ["Hassan Saadat <saadathassan34@gmail.com>"]
 license = "MIT"
