@@ -87,9 +87,9 @@ sample-project
 After all you can decrypt your credentials in desired environment with having corresponding secret key.
 
 ## Coding
-Export `ENVIRONMENT` as an os environment variable like this:
+Export `ENV` as an os environment variable like this:
 ```bash
-export ENVIRONMENT=<environment>
+export ENV=<environment>
 ```
 Now you can easily get your environment variables. we used [python-decouple](https://pypi.org/project/python-decouple/) inside.
 

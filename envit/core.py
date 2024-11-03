@@ -7,9 +7,9 @@ config = None
 def load_env_variables():
     global config  # Use global keyword to modify the module-level variable
     default_env_dir = os.getenv('DEFAULT_ENV_DIR', 'envs')
-    environment = os.getenv('ENVIRONMENT')
+    environment = os.getenv('ENV')
     if not environment:
-        print("Error: Environment variable ENVIRONMENT must be set.")
+        print("Error: Environment variable ENV must be set.")
         return
 
     env_file_path = os.path.join(default_env_dir, f'{environment}.env')

@@ -21,7 +21,7 @@ def setup_env():
         f.write(production_file_content)
 
     os.environ['DEFAULT_ENV_DIR'] = envs_dir
-    os.environ['ENVIRONMENT'] = 'production'
+    os.environ['ENV'] = 'production'
 
     yield
 
